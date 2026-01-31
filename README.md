@@ -10,15 +10,24 @@
 
 The project demonstrates the integration of frontend aesthetics with backend logic, utilizing **PHP** to handle form data and render dynamic user profiles upon registration.
 
+## 📸 Application Walkthrough
 
+### 1. Landing Page (Home)
+The entry point features a hero section with a semi-transparent overlay to improve text readability, introducing the "E-Library" concept.
+![Landing Page](./Screenshot%202024-05-21%20093042.png)
 
-[Image of client server php architecture]
+### 2. Member Registration
+A structured HTML5 form designed to capture user demographics (Name, Email, Age, Secure Password, Contact) with validation.
+![Registration Form](./Screenshot%202024-05-21%20093152.png)
 
+### 3. User Profile Generation (Backend Processing)
+Upon submission, the PHP backend processes the `POST` request and dynamically generates a profile card within a styled data table.
+![Profile Result](./Screenshot%202024-05-21%20093525.png)
 
 ## ⚡ Key Features
 
 * **Responsive UI/UX:** Built with a "Mobile-First" approach using CSS Flexbox, ensuring the layout adapts seamlessly to different screen sizes.
-* **Server-Side Processing:** Utilizes PHP to capture `POST` requests from the registration form.
+* **Server-Side Processing:** Utilizes PHP to capture requests and sanitize input data.
 * **Data Visualization:** Dynamically renders user input into a structured HTML table format.
 * **Modern Typography:** Implements the Google Font **"Lato"** for a clean, professional aesthetic.
 * **Navigation Architecture:** Includes a consistent, responsive navigation bar across all views.
@@ -27,8 +36,8 @@ The project demonstrates the integration of frontend aesthetics with backend log
 
 ```text
 BookHeaven-Portal/
-├── index.html       # Landing page with library introduction
-├── register.html    # User registration form (Frontend)
-├── profile.php      # Data processing and display logic (Backend)
+├── index.html       # Landing page (Screenshot 1)
+├── register.html    # User registration form (Screenshot 2)
+├── profile.php      # Data processing and display logic (Screenshot 3)
 ├── style.css        # Global stylesheet for layout and theming
 └── README.md        # Project documentation
