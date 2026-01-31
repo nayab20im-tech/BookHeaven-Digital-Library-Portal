@@ -1,0 +1,139 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Lato;
+}
+body{
+	background-image:url("goongsunnam2_313656001-1024x691.jpg") ;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.div1{
+	height:7vh;
+	width:100%;
+	font-size: 1.2rem;
+}
+ul{
+	display:flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	align-items: stretch;
+	flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    background-color: steelblue;
+    border:transparent;
+	border-radius: 25px;
+	padding:1.2% 0% 1.2% 4%;
+	opacity: 0.9;
+	color:white;
+}
+.li1{
+	flex-basis: 80%;
+	flex-shrink: 2px;
+}
+.li2{
+	flex-basis: 10%;
+}
+li a{
+	text-decoration: none;
+	color:white;
+}
+li a:hover{
+	text-decoration: underline;
+}
+.div2{
+	width:32%;
+	height:32vh;
+	margin:22% 33% 4% 33%;
+	background-color: steelblue;
+	border:transparent;
+	border-radius: 25px;
+	opacity: 0.9;
+	padding: 2% 2%;
+	color: white;
+}
+p{
+	padding:8% 0% 0% 0% ;
+	text-align: left;
+	font-size: 1rem;
+}
+.sec_h2{
+	text-align: left;
+}
+form{
+	width:28%;
+	height:50vh;
+	margin-left: 37%;
+	margin-right: 35%;
+	margin-top: 17%;
+	background-color: steelblue;
+	border:transparent;
+	border-radius: 25px;
+	opacity: 0.9;
+	color:white;
+	text-align: center;
+	font-size: 1.2rem;
+}
+h2{
+	text-align: center;
+}
+input{
+    height:3.8vh;
+    width:45%;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 3px;
+    background-color: white;
+}
+button{
+	height:4.5vh;
+	width:17%;
+	border: transparent;
+	border-radius: 10px;
+	color:red;
+	cursor:pointer;
+	background-color:white;
+	font-size: 1.2rem;
+}
+button:hover{
+	background-color:greenyellow ;
+}
+.div3{
+    background-color: steelblue;
+    height:40vh;
+    width:35%;
+    margin-top: 20%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border: transparent;
+    border-radius: 25px;
+    padding-top: 10vh;
+}
+table{
+     	margin-left:11.9%;
+     	background-color:gray;
+     	height:12vh;
+     	width:75%;
+ }
+th{
+     	background-color:black;
+     	color:white;
+     }
+td{
+     	color:white;
+     }
+     .B2{
+     	margin-top: 10vh;
+     	margin-left: 20%;
+     	height:4.5vh;
+	    width:15%;
+	    border: transparent;
+	    border-radius: 25px;
+	    color:red;
+	    cursor:pointer;
+	    background-color:white;
+	    font-size: 1rem;
+     }
